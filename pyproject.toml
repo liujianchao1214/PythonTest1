@@ -26,14 +26,14 @@ build-backend = "setuptools.build_meta"  # If not defined, then legacy behavior 
 # There are some restrictions on what makes a valid project name
 # specification here:
 # https://packaging.python.org/specifications/core-metadata/#name
-name = "sampleproject"  # REQUIRED, is the only field that cannot be marked as dynamic.
+name = "PythonTestLJC"  # REQUIRED, is the only field that cannot be marked as dynamic.
 
 # Versions should comply with PEP 440:
 # https://www.python.org/dev/peps/pep-0440/
 #
 # For a discussion on single-sourcing the version, see
 # https://packaging.python.org/guides/single-sourcing-package-version/
-version = "3.0.0"  # REQUIRED, although can be dynamic
+version = "3.0.3"  # REQUIRED, although can be dynamic
 
 # This is a one-line description or tagline of what your project does. This
 # corresponds to the "Summary" metadata field:
@@ -73,14 +73,14 @@ keywords = ["sample", "setuptools", "development"]
 # authored the project, and a valid email address corresponding to the name
 # listed.
 authors = [
-  {name = "A. Random Developer", email = "author@example.com" }
+  {name = "LJC", email = "632688200@gmail.com" }
 ]
 
 # This should be your name or the names of the organization who currently
 # maintains the project, and a valid email address corresponding to the name
 # listed.
 maintainers = [
-  {name = "A. Great Maintainer", email = "maintainer@example.com" }
+  {name = "LJC", email = "632688200@gmail.com" }
 ]
 
 # Classifiers help users find your project by categorizing it.
@@ -91,7 +91,7 @@ classifiers = [
   #   3 - Alpha
   #   4 - Beta
   #   5 - Production/Stable
-  "Development Status :: 3 - Alpha",
+  "Development Status :: 5 - Production/Stable",
 
   # Indicate who your project is intended for
   "Intended Audience :: Developers",
@@ -119,7 +119,26 @@ classifiers = [
 # For an analysis of this field vs pip's requirements files see:
 # https://packaging.python.org/discussions/install-requires-vs-requirements/
 dependencies = [
-  "peppercorn"
+	"peppercorn",
+	"node",
+	"odict",
+	"certifi",
+	"charset_normalizer",
+	"docutils",
+	"idna",
+	"importlib_metadata",
+	"keyring",
+	"mdurl",
+	"more_itertools",
+	"nh3",
+	"odict",
+	"pip",
+	"pkginfo",
+	"plumber",
+	"pygments",
+	"requests_toolbelt",
+	"readme_renderer",
+	"requests"
 ]
 
 # List additional groups of dependencies here (e.g. development
@@ -146,11 +165,11 @@ test = ["coverage"]
 # maintainers, and where to support the project financially. The key is
 # what's used to render the link text on PyPI.
 [project.urls]
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Reports" = "https://github.com/pypa/sampleproject/issues"
+"Homepage" = "https://github.com/liujianchao1214/PythonTest"
+"Bug Reports" = "https://github.com/liujianchao1214/PythonTest/issues"
 "Funding" = "https://donate.pypi.org"
-"Say Thanks!" = "http://saythanks.io/to/example"
-"Source" = "https://github.com/pypa/sampleproject/"
+"Say Thanks!" = "https://github.com/liujianchao1214/PythonTest"
+"Source" = "https://github.com/liujianchao1214/PythonTest"
 
 # The following would provide a command line executable called `sample`
 # which executes the function `main` from this package when invoked.
